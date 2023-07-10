@@ -31,8 +31,13 @@ public class Main {
     }
 
     public static void task3 () {
-        System.out.println("Задача 3");
-        // Пишем код для задачи 1
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println("Задача 2");
+        System.out.println("dog = "+ (dog - 3.5));
+        System.out.println("cat = "+ (cat - 1.6));
+        System.out.println("paper = " + (paper - 7639));
     }
 
     public static void task4 () {
