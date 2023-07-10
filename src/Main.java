@@ -46,12 +46,14 @@ public class Main {
         System.out.println("friend = "+ (friend));
         System.out.println("friend = "+ (friend + 2));
         System.out.println(("friend = "+ (friend + 2) / 7));
-
     }
 
     public static void task5 () {
+        var frog = 3.5;
         System.out.println("Задача 5");
-        // Пишем код для задачи 1
+        System.out.println("frog = " + (frog * 10));
+        System.out.println(("frog = " + (frog * 10) / 3.5));
+        System.out.println("frog = " + (((frog * 10) / 3.5) + 4));
     }
 
     public static void task6 () {
