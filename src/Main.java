@@ -34,15 +34,19 @@ public class Main {
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        System.out.println("Задача 2");
+        System.out.println("Задача 3");
         System.out.println("dog = "+ (dog - 3.5));
         System.out.println("cat = "+ (cat - 1.6));
         System.out.println("paper = " + (paper - 7639));
     }
 
     public static void task4 () {
+        var friend = 19;
         System.out.println("Задача 4");
-        // Пишем код для задачи 2
+        System.out.println("friend = "+ (friend));
+        System.out.println("friend = "+ (friend + 2));
+        System.out.println(("friend = "+ (friend + 2) / 7));
+
     }
 
     public static void task5 () {
