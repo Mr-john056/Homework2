@@ -18,6 +18,7 @@ public class Main {
         System.out.println("dog = "+ dog);
         System.out.println("cat = "+ cat);
         System.out.println("paper = " + paper);
+        System.out.println();
     }
 
     public static void task2 () {
@@ -28,6 +29,7 @@ public class Main {
         System.out.println("dog = "+ (dog + 4));
         System.out.println("cat = "+ (cat + 4));
         System.out.println("paper = " + (paper + 4));
+        System.out.println();
     }
 
     public static void task3 () {
@@ -38,6 +40,7 @@ public class Main {
         System.out.println("dog = "+ (dog - 3.5));
         System.out.println("cat = "+ (cat - 1.6));
         System.out.println("paper = " + (paper - 7639));
+        System.out.println();
     }
 
     public static void task4 () {
@@ -46,6 +49,7 @@ public class Main {
         System.out.println("friend = "+ (friend));
         System.out.println("friend = "+ (friend + 2));
         System.out.println(("friend = "+ (friend + 2) / 7));
+        System.out.println();
     }
 
     public static void task5 () {
@@ -54,6 +58,7 @@ public class Main {
         System.out.println("frog = " + (frog * 10));
         System.out.println(("frog = " + (frog * 10) / 3.5));
         System.out.println("frog = " + (((frog * 10) / 3.5) + 4));
+        System.out.println();
     }
 
     public static void task6 () {
@@ -64,11 +69,18 @@ public class Main {
         System.out.println("Задача 6");
         System.out.println("Общая масса двух бойцов: "+ summWeightBoxer);
         System.out.println("Разница между массами бойцов: "+ differenceWeightBoxer);
+        System.out.println();
     }
 
     public static void task7 () {
+        var weightOneBoxer = 78.2;
+        var weightTwoBoxer = 82.7;
+        var differenceWeightBoxer = weightTwoBoxer - weightOneBoxer;
+        var divisionWeightBoxer = weightTwoBoxer % weightOneBoxer;
         System.out.println("Задача 7");
-        // Пишем код для задачи 1
+        System.out.println("Разница массы спортсменов(способ 1):" + differenceWeightBoxer);
+        System.out.println("Разница массы спортсменов(способ 2)" + divisionWeightBoxer);
+        System.out.println();
     }
 
     public static void task8 () {
