@@ -57,8 +57,13 @@ public class Main {
     }
 
     public static void task6 () {
+        var weightOneBoxer = 78.2;
+        var weightTwoBoxer = 82.7;
+        var summWeightBoxer = weightOneBoxer + weightTwoBoxer;
+        var differenceWeightBoxer = weightTwoBoxer - weightOneBoxer;
         System.out.println("Задача 6");
-        // Пишем код для задачи 2
+        System.out.println("Общая масса двух бойцов: "+ summWeightBoxer);
+        System.out.println("Разница между массами бойцов: "+ differenceWeightBoxer);
     }
 
     public static void task7 () {
