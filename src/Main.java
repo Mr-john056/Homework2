@@ -84,7 +84,13 @@ public class Main {
     }
 
     public static void task8 () {
+        var totalTime = 640;
+        var timePerEmployee = 8;
+        var totalNumberEmployees = totalTime / timePerEmployee;
+        var summEmployees = totalNumberEmployees + 94;
+        var summTotalTime = summEmployees * timePerEmployee;
         System.out.println("Задача 8");
-        // Пишем код для задачи 2
+        System.out.println("Всего работников в компании - " + totalNumberEmployees + " человек");
+        System.out.println("Если в компании работает " + summEmployees + " человек, то всего " + summTotalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
